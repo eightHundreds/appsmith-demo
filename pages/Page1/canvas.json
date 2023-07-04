@@ -14,13 +14,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 80,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -32,7 +32,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 58,
+              "topRow": 8,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -101,13 +101,18 @@
                 "image",
                 "_id"
               ],
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "tableData"
+                }
+              ],
               "displayName": "Table",
-              "bottomRow": 86,
+              "bottomRow": 36,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,
-                "status": 75
+                "status": 75,
+                "image": 215
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -176,7 +181,7 @@
               "key": "ths80ea63o",
               "canFreezeColumn": false,
               "isDeprecated": false,
-              "rightColumn": 34,
+              "rightColumn": 33,
               "textSize": "0.875rem",
               "widgetId": "no8c6w6pp1",
               "tableData": "{{MyQQQ.data}}",
@@ -200,15 +205,15 @@
                 "click",
                 "submit"
               ],
-              "topRow": 24,
-              "bottomRow": 28,
+              "topRow": 0,
+              "bottomRow": 4,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.421875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 0,
+              "leftColumn": 3,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -221,7 +226,7 @@
               "isDisabled": false,
               "key": "6amp2txtfq",
               "isDeprecated": false,
-              "rightColumn": 11,
+              "rightColumn": 18,
               "isDefaultClickDisabled": true,
               "widgetId": "hdn8ir008r",
               "minWidth": 120,
@@ -239,18 +244,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_MyQQQ",
-              "name": "MyQQQ",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
